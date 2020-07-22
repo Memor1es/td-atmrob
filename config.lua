@@ -2,7 +2,7 @@ Config = {}
 
 Config.CopCount = 0 --whatever you want
 
-Config.Standalone = 1 --xmerfs burayı elleme kanki
+Config.Standalone = 1 --dont touch this column
 
 Config.Money = 800
 
