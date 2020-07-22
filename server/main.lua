@@ -2,14 +2,7 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-local Items = {
-    'metalscrap',
-    'plastic',
-    'copper',
-    'aluminium',
-    'steel',
-    'glass',
-}
+
 
 ESX.RegisterServerCallback('hasan:copCount', function(source, cb)
 	local xPlayers = ESX.GetPlayers()
